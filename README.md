@@ -1,8 +1,8 @@
 Website :
 
-https://parsicoin.net
+https://crytposymbiotic.com
 
--= Building ParsiCoin =-
+-= Building BTCS =-
 
 On *nix:
 
@@ -45,7 +45,7 @@ To build, change to a directory where this file is located, and run this command
 mkdir build && cd build && cmake .. -G "Visual Studio 14 Win64" ..
 ```
 
-open ParsiCoin.sln File on Visual Studio
+open BTCS.sln File on Visual Studio
 
 And Finaly do the Build.
 
