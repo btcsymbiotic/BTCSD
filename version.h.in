@@ -1,8 +1,8 @@
 #define STR_HELPER(x) #x
 #define STR(x) STR_HELPER(x)
-#define PROJECT_NAME "ParsiCoin"
-#define PROJECT_SITE "https://parsicoin.net"
-#define PROJECT_COPYRIGHT "Copyright 2018-2020, ParsiCoin Developers"
+#define PROJECT_NAME "BTCS"
+#define PROJECT_SITE "https://cryptosymbiotic.com"
+#define PROJECT_COPYRIGHT "Copyright 2018-2020, Bitcoin Symbiotic Developers"
 #define APP_VER_MAJOR 3
 #define APP_VER_MINOR 3
 #define APP_VER_REV 0
