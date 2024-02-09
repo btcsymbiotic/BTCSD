@@ -2,7 +2,7 @@ Website :
 
 https://crytposymbiotic.com
 
--= Building BTCS =-
+Building BTCS
 
 On *nix:
 
