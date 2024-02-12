@@ -22,18 +22,18 @@ const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW_V1          = 11;
 // MONEY_SUPPLY - total number coins to be generated
 const uint64_t MONEY_SUPPLY                                  = UINT64_C(10000000000000000000);
 const uint64_t COIN                                          = UINT64_C(1000000000000);
-const uint64_t TAIL_EMISSION_REWARD                          = UINT64_C(10000000000);
+const uint64_t TAIL_EMISSION_REWARD                          = UINT64_C(1000000000000);
 const size_t CRYPTONOTE_COIN_VERSION                         = 1;
-const unsigned EMISSION_SPEED_FACTOR                         = 24;
+const unsigned EMISSION_SPEED_FACTOR                         = 19;
 static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
 
 const size_t   CRYPTONOTE_REWARD_BLOCKS_WINDOW               = 100;
-const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE     = 20000; //size of block (bytes) after which reward for block calculated using block size
-const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V2  = 20000;
+const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE     = 1000000; //size of block (bytes) after which reward for block calculated using block size
+const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V2  = 1000000;
 const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V1  = 10000;
 const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_CURRENT = CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE;
 const size_t   CRYPTONOTE_COINBASE_BLOB_RESERVED_SIZE        = 600;
-const size_t   CRYPTONOTE_DISPLAY_DECIMAL_POINT              = 9;
+const size_t   CRYPTONOTE_DISPLAY_DECIMAL_POINT              = 12;
 
 const uint64_t MINIMUM_FEE_V1                                = UINT64_C(100000000);
 const uint64_t MINIMUM_FEE_V2                                = UINT64_C(1000000000);
