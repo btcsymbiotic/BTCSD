@@ -119,7 +119,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "btcsminer_conf.j
 
 const char     CRYPTONOTE_NAME[]                             = "BTCS";
 const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff000180a094a58d1d029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101943c6be20c48e22f1d4c46aad8be97e9f0d9ed23ec00e168b5df0243d1029aad";
-const char     DNS_CHECKPOINTS_URL[]                        = "127.0.0.1";
+const char     DNS_CHECKPOINTS_URL[]                        = "193.203.162.185";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
